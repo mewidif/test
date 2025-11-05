@@ -1,0 +1,22 @@
+name: "my-website"
+
+output_dir: docs
+
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+
+output:
+  html_document:
+    code_folding: hide
+    code_download: true
+    df-print: paged
+    theme: simplex
+    css: styles.css
+    toc: true
+    toc_float:
+      collapsed: true
